@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Day Spa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Green Day Spa</h1>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Green Day Spa has been providing exceptional spa services for over 5 years. Our team of experienced professionals is dedicated to offering the best massage services to help you relax and rejuvenate.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <p>We offer a variety of massage services to cater to your needs. Whether you're looking for a relaxing Swedish massage or a therapeutic deep tissue massage, we've got you covered.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> 7777945407, 7777944507</p>
+    <p><strong>Hours:</strong> 11:00 AM to 9:00 PM</p>
+    <p><strong>Address:</strong> D-259, 2nd Floor, Pramukh Mastana, Reliance Chowkdi, Kudasan Gandhinagar, Near Terracotta Restaurant</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Green Day Spa. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
